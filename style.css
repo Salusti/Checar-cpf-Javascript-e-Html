@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root{
+   --primeiracor: rgb(77, 77, 160);
+   --primeiracor-escurz: rgba(17, 17, 90, 0.51);
+}
+
+*{
+    
+    box-sizing: border-box;
+    outline: 0;
+
+}
+
+body{
+    background: var(--primeiracor);
+    margin: 0;
+    padding: 0;
+    font-family: 'lora', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input{
+    font-size: 20px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 1px solid var(--primeiracor);
+}
+
+form button{
+    border: none;
+    background-color: var(--primeiracor);
+    color: aqua;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: var(--primeiracor-escurz);
+}
